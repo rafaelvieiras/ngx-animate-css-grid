@@ -14,6 +14,11 @@
           "options": {
             "tsConfig": "projects/ngx-animate-css-grid/tsconfig.lib.json",
             "project": "projects/ngx-animate-css-grid/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-animate-css-grid/tsconfig.lib.prod.json"
+            }
           }
         },
         "test": {
@@ -37,6 +42,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ngx-animate-css-grid"
+    }
+  },
+  "defaultProject": "ngx-animate-css-grid",
+  "cli": {
+    "analytics": false
+  }
 }
